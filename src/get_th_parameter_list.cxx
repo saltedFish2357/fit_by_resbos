@@ -4,7 +4,7 @@
 #include <TFile.h>
 #include <TH3.h>
 
-std::vector<th_parameter> get_th_parameter_list(const std::string &out_file, std::vector<const char *> sineff_test, std::vector<bin> Mass_bin_list)
+std::vector<th_parameter> get_th_parameter_list(const std::string &out_file, const std::vector<const char *> &sineff_test, std::vector<bin> Mass_bin_list)
 {
     // Implementation goes here
     std::vector<th_parameter> th_parameter_list;
