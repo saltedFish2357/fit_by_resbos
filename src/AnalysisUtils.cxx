@@ -122,7 +122,7 @@ TH3D *MyAnalysis::Utils::get_Afb_hist(const TH3D *forward_hist, const TH3D *back
             }
         }
     }
-    return nullptr;
+    return Afb_hist;
 }
 
 TH1D *MyAnalysis::Utils::get_Afb_hist(const TH1D *forward_hist, const TH1D *backward_hist, const std::string &name, const std::string &title)
